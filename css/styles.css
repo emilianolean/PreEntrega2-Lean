@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,700&family=Roboto+Slab:wght@300;500&display=swap');
+
+/* reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* estilos de Inicio */
+
+body {
+    background-color: #fbfbcb;
+    font-family: 'noto serif', serif;
+}
+
+/* estilos de header */
+
+header{
+    background-color: rgb(40, 45, 46);
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.encabezado-inicio{
+    background-image: url(../img/Encabezado-inicio.jpg);
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #552525;
+}
+
+.encabezado-inicio p{
+    font: 40px;
+}
+
+.encabezado-inicio h1{
+    font-size: 50px;
+}
+
+.encabezado-nosotros{
+    background-image: url(../img/Encabezado-nosotros.jpg);
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #552525;
+}
+
+.encabezado-nosotros h1{
+    font-size: 50px;
+}
+
+.encabezado-servicios{
+    background-image: url(../img/Encabezado-servicios.jpg);
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #552525;
+}
+
+.encabezado-servicios h1{
+    font-size: 50px;
+}
+
+.encabezado-Ubicacion{
+    background-image: url(../img/Encabezado-Ubicacion.jpg);
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #552525;
+}
+
+.encabezado-Ubicacion h1{
+    font-size: 50px;
+}
+
+.encabezado-Contacto{
+    background-image: url(../img/Encabezado-Contacto.jpg);
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #552525;
+}
+
+.encabezado-Contacto h1{
+    font-size: 50px;
+}
+
+/* estilos del menu */
+
+.menu{
+    background-color: rgb(40, 45, 46);
+}
+
+.menu ul li{
+    text-decoration: none;
+    list-style: none;
+    color: whitesmoke;
+    gap: 10px;
+    padding: 20px;
+    display: inline-block;
+}
+
+.menu a{
+    color: whitesmoke;
+    display: inline-block;
+    text-align: center;
+}
+
+/* animaciones de los botones del menu */
+
+.menu li a:hover{
+    background-color: #203946;
+    transition: 0.3s;
+    transform: scale(1.2);
+}
+
+/* estilos de main */
+
+main{
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+main .Inicio{
+    text-align: center;
+    width: 400px;
+}
+
+main .Nosotros{
+    text-align: center;
+    width: 400px;
+}
+
+main .Servicios{
+    text-align: center;
+    width: 400px;
+}
+
+main .Ubicacion{
+    text-align: center;
+    width: 400px;
+}
+
+/* estilos para nuestro formulario de contacto */
+
+.container-form{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+    margin: 90px;
+}
+
+.container-form h2{
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+.container-form p{
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.container-form form .campo, textarea{
+    width: 100px;
+    padding: 15px 10px;
+    font-size: 15px;
+    border: 1px solid orangered;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;
+}
+
+.container-form .btn-enviar{
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: 0px;
+    background: rgb(218, 161, 55);
+    color: whitesmoke;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+/* animaciones del boton enviar */
+
+.container-form .btn-enviar:hover{
+    box-shadow: 2px 2px 3px black;
+    transform: scale(1.2);
+}
+
+/* estilos de footer*/
+
+footer{
+    background-color: gray;
+}
+
+footer h3{
+    font-size: 16px;
+    text-align: end;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold;
+}
+
